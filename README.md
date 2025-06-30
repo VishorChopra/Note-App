@@ -1,6 +1,6 @@
 # React Notes App
 # Introduction
-A web application with **CRUD** (Create, view, Update, Delete) functionality built using **MERN** stack (MongoDB, Express, React, Node.js) that allows the user to view, create, update and delete notes in the form of visual cards.
+A web application with **CRUD** (Create, Read, Update, Delete) functionality built using **MERN** stack (MongoDB, Express, React, Node.js) that allows the user to view, read ,craete , update and delete notes in the form of visual cards.
 # Tech stacks used
  - **[MongoDB](https://www.mongodb.com/)** - For database functionality
  - **[Express](https://expressjs.com/)** - For handling server side (backend) functions
@@ -84,8 +84,8 @@ All methods send appropriate status messages (successful/unsuccessful) upon comp
  - In both router , I am insert the error and success message by using try and catch methods.
  - On Auth file i implemented JWT to successful login, the user ID and the token generated are returned.
  - The login is handled by [Axios](https://www.npmjs.com/package/axios) which makes the proper HTTP request and returns the response.
- - ### CRUD
- - Note Edit contains 3 types of states - EDIT notes, UPDATE notes and DELETE notes .
+### CRUD
+ - Note Crud contains 4 types of states - READ notes ,EDIT notes, UPDATE notes and DELETE notes .
  - All note actions are also handled by Axios and HTTP requests are made according to the format given in backend.
  - Both user and note reducers are combined and stored with `redux-thunk` middleware applied.
 
