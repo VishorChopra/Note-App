@@ -19,4 +19,3 @@ function App() {
 }
 
 export default App;
-//1.20.57 crt
